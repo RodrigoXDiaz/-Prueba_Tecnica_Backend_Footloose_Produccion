@@ -111,10 +111,18 @@ export class AuthService {
         token: idToken,
       };
     } catch (error: any) {
+      console.error('Error completo en register:', error);
+      console.error('Mensaje:', error.message);
+      console.error('Stack:', error.stack);
+      
       if (error instanceof BusinessException) {
         throw error;
       }
-      throw new BusinessException('Error al registrar usuario', 'REGISTRATION_ERROR', 500);
+      throw new BusinessException(
+        `Error al registrar usuario: ${error.message || 'Error desconocido'}`, 
+        'REGISTRATION_ERROR', 
+        500
+      );
     }
   }
 

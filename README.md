@@ -989,24 +989,7 @@ Este proyecto fue desarrollado siguiendo las mejores prácticas de la industria:
 
 ---
 
-## 📞 Soporte
-
-Si tienes preguntas o encuentras problemas:
-
-1. Revisa la documentación en `docs/`
-2. Verifica la configuración de Firebase
-3. Consulta la documentación de Swagger en `/api/docs`
-4. Revisa los logs del servidor para errores específicos
-
----
-
-## 📜 Licencia
-
-Este proyecto está bajo la Licencia MIT.
-
----
-
-## 🎓 Desarrollado por
+## 🎓 Desarrollado por Rodrigo Daniel Diaz Isla
 
 **Footloose Developer Team**  
 Prueba Técnica - Backend con NestJS y Firebase
@@ -1017,6 +1000,6 @@ Prueba Técnica - Backend con NestJS y Firebase
 
 **⭐ Si este proyecto te fue útil, no olvides darle una estrella ⭐**
 
-Hecho con ❤️ usando NestJS, TypeScript y Firebase
+Hecho con NestJS, TypeScript y Firebase
 
 </div>

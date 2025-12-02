@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@nestjs/common';
-import * as PDFDocument from 'pdfkit';
+import PDFDocument from 'pdfkit';
 import { ProductService } from '../products/product.service';
 import { NotFoundException } from '@core/exceptions/business.exception';
 import * as admin from 'firebase-admin';
